@@ -1,0 +1,92 @@
+html{
+    scroll-behavior: smooth;
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );;
+}
+@font-face{
+  font-family: author;
+  src: url(./AlexBrush-Regular.ttf);
+}
+@font-face{
+  font-family: body;
+  src: url(./Montserrat-Light.otf);
+}  
+@font-face{
+  font-family: title;
+  src: url(./WCManoNegraBoldBta.otf);
+}
+body{
+    margin:10px;
+}
+header{
+    display: flex;
+    height: 250px;
+    padding: 0px 25px;
+}
+header div{
+    height: 250px;
+    width:250px;
+}
+header img{
+    height:100%;
+    width: 100%;
+    float:left;
+}
+h1{
+  font-family: title;
+  text-align: center;
+  margin-top: 120px;
+  margin-left:210px ;
+  font-style: bold;
+  font-size:60px;
+  font-weight:800 ;
+   background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2{
+  font-family:author ;
+}
+main{
+  text-align: center;
+  font-family: body;
+  font-size:18px ;
+}
+#blue1{
+  color: 	#696969;
+}
+#blue2{
+  color:#4169E1;
+}
+#blue3{
+  color:#1E90FF;
+}
+#up1{
+  color:#FF7F50;
+}
+.Chorus{
+  color:#FF0000;
+  text-shadow: 2px 2px 5px #F08080;
+ 
+}
+#shadow{
+  color:#FF0000;
+  text-shadow: 2px 2px 5px #F08080;
+}
+#back{
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.bridge{
+  color:green;
+}
+.outro{
+  background-color: #DAA520;
+    background-image: linear-gradient(180deg, #DAA520, #800000);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
